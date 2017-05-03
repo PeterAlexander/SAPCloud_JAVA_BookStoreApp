@@ -38,7 +38,7 @@
                     + ${book.isbn} + '/tag=' + ${amazonID}" 
 						th:text="${book.title}">Title</a> by <span
 						th:text="${book.author}">Author</span> (ISBN: <span
-						th:text="${book.isbn}">ISBN:</span>)
+						th:text="${book.isbn}"></span>)
 				</dt>
 			
 			<!-- Excercise -->
@@ -48,8 +48,8 @@
 <!--                       + ${book.isbn} + '/tag=' + ${amazonID}" -->
 <!-- 						th:text="${book.title}">Title</a> by <span -->
 <!-- 						th:text="${book.author}">Author</span> (ISBN: <span -->
-<!-- 						th:text="${book.isbn}">ISBN:</span>)(Category: <span -->
-<!-- 						th:text="${book.category}">Category:</span>) -->
+<!-- 						th:text="${book.isbn}">ISBN:</span>;Category: <span -->
+<!-- 						th:text="${book.category}"></span>) -->
 <!-- 				</dt> -->
 				<dd class="bookDescription">
 					<span th:if="${book.description}" th:text="${book.description}">Description</span>
